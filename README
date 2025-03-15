@@ -28,7 +28,6 @@
 # from django.http import HttpResponse
 
 
-
 # def home(request):
     # return HttpResponse('HELLO WORD !, MY WELOME TO DJANGO.')
 
@@ -51,3 +50,14 @@
 # nop href passei /form
 
 # criei outro arquivo chamado form.html e adicionei um formulario com o metodo post
+
+# na posta models: class Carro(models.Model):
+    #modelo = models.CharField(max_length=150)
+    #marca = models.CharField(max_length=100)
+    #ano = models.IntegerField()
+
+# > python manage.py makemigrations criando o models carros no terminal
+
+# executar no terminal python manage.py runserver
+
+# sair do terminal crtl + c

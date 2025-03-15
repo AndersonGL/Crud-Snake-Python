@@ -9,7 +9,7 @@
   </head>
   <body>
     <div class="col-8 m-auto pt-4 pb-2 text-center">
-      <h1>Cadastro</h1>
+      <h1>Cadastro de Veiculos</h1>
     </div>
 
     <div class="col-8 m-auto pt-4 pb-2 text-center">
@@ -17,7 +17,14 @@
     </div>
 
     <div class="col-8 m-auto pt-2 pb-2 text-center">
-       aqui vai o formulário
+      <form name="form" id="form" method="post">
+        {% csrf_token %}
+        <!--{{ form.as_p }}-->
+
+      <div class="form-group mt-4">Modelo: {{form.modelo}}</div>   <!-- campo de modelo -->
+      <div class="form-group mt-4">Marca:  {{form.marca}}</div>        <!-- campo de marca -->
+      <div class="form-group mt-4">Ano:    {{form.ano}}</div>           <!-- campo de ano -->
+      <input type="submit" class="btn btn-success mt-4" value="Salvar">  <!-- botão de salvar -->
       </div>
   </body>
 </html>

@@ -1,5 +1,5 @@
 from django.shortcuts import render
-
+from meuapp.forms import CarroForm
 
 
 def home(request):
@@ -8,4 +8,6 @@ def home(request):
 
 
 def form(request):
-    return render(request, 'form.html')
+    data = {}
+    data['form'] = CarroForm()          # mandando o form para o form.html
+    return render(request, 'form.html', data )
