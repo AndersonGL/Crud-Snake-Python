@@ -1,0 +1,53 @@
+# Criei uma pasta crud-snake
+
+# verifiquei a atualização do python 
+
+# instalei o django comando: pip install django
+
+# criei o projeto django com o comando django-admin startproject crud_snake
+
+# python -m venv venv # criei um ambiente virtual
+
+# entrei na pasta crud_snake e criei um app com o comando python manage.py startapp snake
+
+# na pasta crud_snake abri o arquivo settings.py e adicionei o meuapp  na installed apps
+
+# na pasta crud_snake abri o arquivo urls.py e adicionei o caminho para o meu app
+
+# from django.contrib import admin
+# from django.urls import path
+# from meuapp.views import home
+
+
+# urlpatterns = [
+  # path('admin/', admin.site.urls),
+  # path('', home),
+   
+# e na pasta views.py do meu app criei a função home
+
+# from django.http import HttpResponse
+
+
+
+# def home(request):
+    # return HttpResponse('HELLO WORD !, MY WELOME TO DJANGO.')
+
+
+
+# http://127.0.0.1:8000/  # para rodar o servidor
+
+
+
+# criei uma pasta templates na pasta do meu app
+
+# na pasta templates criei um arquivo index.html  e importei o render 
+
+# crie uma tabela no index.html com bootstrap e adicionei um botao de adicionar
+
+# no urls.py   passei  path('form/', form),  # criei um caminho para o formulario
+
+# e criei no views.py uma função form.html
+
+# nop href passei /form
+
+# criei outro arquivo chamado form.html e adicionei um formulario com o metodo post
