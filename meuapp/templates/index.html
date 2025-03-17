@@ -9,10 +9,11 @@
   </head>
   <body>
      
-    <p>Crud com Python</p>
+    
      
     <div class="col-8 m-auto pt-4 pb-2 text-center">
       <h1>Snake Carros</h1>
+      <p>Crud com Python</p>
     </div>
 
     <div class="col-8 m-auto pt-4 pb-2 text-center">
@@ -27,15 +28,27 @@
                 <th scope="col">Carro</th>
                 <th scope="col">Modelo</th>
                 <th scope="col">Ano</th>
+                <th scope="col">Ações</th>
               </tr>
             </thead>
             <tbody>
+              {% for dbs in db %}
               <tr>
-                <th scope="row"></th>
-                <td></td>
-                <td></td>
-                <td></td>
+                <th>{{dbs.id}}</th>
+                <td>{{dbs.modelo}}</td>
+                <td>{{dbs.marca}}</td>
+                <td>{{dbs.ano}}</td>
+                <td>
+                  <a href="/view/{{dbs.id}}/" class="btn btn-dark">Visualizar</a>
+                  <a href="" class="btn btn-primary">Editar</a>  <!--Bootstrap-->
+                  <a href="" class="btn btn-danger">Deletar</a>
+
+
+
+
+                </td>   <!--botões -->
               </tr>
+              {% endfor %}
     
       </div>
   </body>
