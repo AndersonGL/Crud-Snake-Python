@@ -1,0 +1,18 @@
+/* Estilos gerais (padrão para desktop) */
+body {
+    font-size: 18px;
+}
+
+/* Tablet (largura entre 768px e 1024px) */
+@media (max-width: 1024px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+/* Celular (largura até 767px) */
+@media (max-width: 767px) {
+    body {
+        font-size: 14px;
+    }
+}
