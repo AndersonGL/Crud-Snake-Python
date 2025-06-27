@@ -1,68 +1,36 @@
-# Criei uma pasta crud-snake
+# 🐍 CRUD Snake
 
-# verifiquei a atualização do python 
+Um projeto **Django** simples que exemplifica a criação de um CRUD (Create • Read • Update • Delete) para cadastro de **Carros**, com views básicas em função, templates Bootstrap e banco de dados padrão SQLite.
 
-# instalei o django comando: pip install django
+---
 
-# criei o projeto django com o comando django-admin startproject crud_snake
+## ✨ Visão Geral
 
-# python -m venv venv # criei um ambiente virtual
+> Demonstra os passos essenciais para iniciar um projeto Django, criar um app, modelar dados e construir páginas de listagem e formulário usando Bootstrap. Ótimo ponto de partida para quem deseja evoluir para uma aplicação completa ou estudar a stack **Python + Django**.
 
-# entrei na pasta crud_snake e criei um app com o comando python manage.py startapp snake
+---
 
-# na pasta crud_snake abri o arquivo settings.py e adicionei o meuapp  na installed apps
+## 🚀 Tecnologias & Ferramentas
 
-# na pasta crud_snake abri o arquivo urls.py e adicionei o caminho para o meu app
+| Camada          | Tech / Tool                                                                     |
+|-----------------|---------------------------------------------------------------------------------|
+| **Linguagem**   | Python 3.12+                                                                    |
+| **Framework**   | Django 5.x                                                                      |
+| **Front-end**   | HTML5 • CSS3 (Bootstrap v5)                                                     |
+| **Ger. Ambiente** | `venv`                                                                        |
+| **Banco Padrão**| SQLite (por padrão do Django)                                                   |
+| **IDE**         | VS Code (recomendado)                                                           |
 
-# from django.contrib import admin
-# from django.urls import path
-# from meuapp.views import home
+---
 
+## ⚙️ Pré-requisitos
 
-# urlpatterns = [
-  # path('admin/', admin.site.urls),
-  # path('', home),
-   
-# e na pasta views.py do meu app criei a função home
+- Python instalado e atualizado  
+- Pip atualizado (`python -m pip install --upgrade pip`)  
+- Acesso a terminal/PowerShell/Bash  
+- Git (opcional, mas recomendado)  
 
-# from django.http import HttpResponse
-
-
-# def home(request):
-    # return HttpResponse('HELLO WORD !, MY WELOME TO DJANGO.')
-
-
-
-# http://127.0.0.1:8000/  # para rodar o servidor
-
-
-
-# criei uma pasta templates na pasta do meu app
-
-# na pasta templates criei um arquivo index.html  e importei o render 
-
-# crie uma tabela no index.html com bootstrap e adicionei um botao de adicionar
-
-# no urls.py   passei  path('form/', form),  # criei um caminho para o formulario
-
-# e criei no views.py uma função form.html
-
-# nop href passei /form
-
-# criei outro arquivo chamado form.html e adicionei um formulario com o metodo post
-
-# na posta models: class Carro(models.Model):
-    #modelo = models.CharField(max_length=150)
-    #marca = models.CharField(max_length=100)
-    #ano = models.IntegerField()
-
-# > python manage.py makemigrations criando o models carros no terminal
-
-# executar no terminal python manage.py runserver
-
-# sair do terminal crtl + c
-
-
-
-# CREATE
+```bash
+# Checar versão do Python
+python --version
 
