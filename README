@@ -1,36 +1,52 @@
-# 🐍 CRUD Snake
+<h1 align="center">🐍 CRUD Snake</h1>
 
-Um projeto **Django** simples que exemplifica a criação de um CRUD (Create • Read • Update • Delete) para cadastro de **Carros**, com views básicas em função, templates Bootstrap e banco de dados padrão SQLite.
+<p align="center">
+  <b>Django • Bootstrap 5 • SQLite</b><br>
+  Pequeno projeto <em>CRUD</em> para cadastro de <strong>Carros</strong>, ideal como ponto de partida para seus próprios apps.
+  <br><br>
+  <img alt="Python" src="https://img.shields.io/badge/Python-3.12%2B-blue?logo=python">
+  <img alt="Django" src="https://img.shields.io/badge/Django-5.x-%23092e20?logo=django&logoColor=white">
+  <img alt="license" src="https://img.shields.io/github/license/seu-usuario/crud-snake?color=informational">
+</p>
+
+---
+
+## 📑 Sumário
+- [✨ Visão Geral](#-visão-geral)
+- [🚀 Tecnologias & Ferramentas](#-tecnologias--ferramentas)
+- [⚙️ Pré-requisitos](#️-pré-requisitos)
+- [🔧 Instalação](#-instalação)
+- [🗂️ Estrutura de Pastas](#️-estrutura-de-pastas)
+- [📷 Capturas de Tela](#-capturas-de-tela)
+- [🤝 Contribuindo](#-contribuindo)
+- [📝 Licença](#-licença)
+- [👤 Autor](#-autor)
 
 ---
 
 ## ✨ Visão Geral
-
-> Demonstra os passos essenciais para iniciar um projeto Django, criar um app, modelar dados e construir páginas de listagem e formulário usando Bootstrap. Ótimo ponto de partida para quem deseja evoluir para uma aplicação completa ou estudar a stack **Python + Django**.
+> Demonstra o fluxo completo para **criar**, **listar**, **atualizar** e **deletar** registros no Django com <br>  
+> views baseadas em função, templates **Bootstrap 5** e banco padrão **SQLite**. Ótimo laboratório para quem está aprendendo a stack **Python + Django**.
 
 ---
 
 ## 🚀 Tecnologias & Ferramentas
 
-| Camada          | Tech / Tool                                                                     |
-|-----------------|---------------------------------------------------------------------------------|
-| **Linguagem**   | Python 3.12+                                                                    |
-| **Framework**   | Django 5.x                                                                      |
-| **Front-end**   | HTML5 • CSS3 (Bootstrap v5)                                                     |
-| **Ger. Ambiente** | `venv`                                                                        |
-| **Banco Padrão**| SQLite (por padrão do Django)                                                   |
-| **IDE**         | VS Code (recomendado)                                                           |
+| Camada            | Stack / Tool                                   |
+|-------------------|-----------------------------------------------|
+| **Linguagem**     | Python 3.12 ou superior                       |
+| **Framework**     | Django 5.x                                    |
+| **Front-end**     | HTML5 • CSS3 • Bootstrap v5                   |
+| **DB Default**    | SQLite3 (out-of-the-box)                      |
+| **Ambiente**      | `venv`                                        |
+| **IDE** *(sug.)* | Visual Studio Code                            |
 
 ---
 
 ## ⚙️ Pré-requisitos
-
-- Python instalado e atualizado  
-- Pip atualizado (`python -m pip install --upgrade pip`)  
-- Acesso a terminal/PowerShell/Bash  
-- Git (opcional, mas recomendado)  
-
 ```bash
-# Checar versão do Python
+# Checar Python
 python --version
 
+# Atualizar pip
+python -m pip install --upgrade pip
