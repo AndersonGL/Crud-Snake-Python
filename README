@@ -39,3 +39,74 @@ python --version
 
 # Atualizar pip
 python -m pip install --upgrade pip
+
+
+<h1 align="center">🐍 CRUD Snake</h1>
+
+<p align="center">
+  <b>Django • Bootstrap 5 • SQLite</b><br>
+  Pequeno projeto <em>CRUD</em> para cadastro de <strong>Carros</strong>, ideal como ponto de partida para seus próprios apps.
+  <br><br>
+  <img alt="Python" src="https://img.shields.io/badge/Python-3.12%2B-blue?logo=python">
+  <img alt="Django" src="https://img.shields.io/badge/Django-5.x-%23092e20?logo=django&logoColor=white">
+  <img alt="license" src="https://img.shields.io/github/license/seu-usuario/crud-snake?color=informational">
+</p>
+
+---
+
+## 📋 Sobre o Projeto
+
+O **CRUD Snake** é uma aplicação web simples construída com Django, focada em realizar operações de **Create, Read, Update e Delete** (CRUD) de **carros**.
+
+Ideal para estudantes, iniciantes no framework ou como base para projetos mais robustos.
+
+---
+
+## 🚀 Tecnologias Utilizadas
+
+- 💻 **Python 3.12+**
+- 🌐 **Django 5.x**
+- 💅 **Bootstrap 5**
+- 🗃️ **SQLite3**
+
+---
+
+## 📂 Funcionalidades
+
+- ✅ Cadastro de carros com nome, marca e ano
+- ✅ Edição de registros existentes
+- ✅ Listagem de todos os carros cadastrados
+- ✅ Exclusão de veículos com confirmação
+- ✅ Estilização responsiva com Bootstrap
+
+---
+
+## ⚙️ Como Rodar o Projeto
+
+### ✅ Pré-requisitos
+
+- Python 3.12+
+- pip
+- Virtualenv (opcional, mas recomendado)
+
+### 🔧 Passos
+
+```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/crud-snake.git
+cd crud-snake
+
+# Crie e ative um ambiente virtual (opcional)
+python -m venv venv
+source venv/bin/activate  # Linux/macOS
+venv\Scripts\activate     # Windows
+
+# Instale as dependências
+pip install -r requirements.txt
+
+# Aplique as migrações
+python manage.py migrate
+
+# Rode o servidor de desenvolvimento
+python manage.py runserver
+
