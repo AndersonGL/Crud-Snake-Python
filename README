@@ -1,93 +1,52 @@
+# 🐍 CRUD Snake
 
-📑 Sumário
-✨ Visão Geral
-🚀 Tecnologias & Ferramentas
-⚙️ Pré-requisitos
-🔧 Instalação
-🗂️ Estrutura de Pastas
-📷 Capturas de Tela
-🤝 Contribuindo
-📝 Licença
-👤 Autor
-✨ Visão Geral
-Demonstra o fluxo completo para criar, listar, atualizar e deletar registros no Django com <br>
-views baseadas em função, templates Bootstrap 5 e banco padrão SQLite. Ótimo laboratório para quem está aprendendo a stack Python + Django.
+**Sistema de cadastro de carros usando Django 5, Bootstrap 5 e SQLite.**  
+Ideal para quem está aprendendo Django ou precisa de um projeto base para CRUD.
 
-🚀 Tecnologias & Ferramentas
-Camada	Stack / Tool
-Linguagem	Python 3.12 ou superior
-Framework	Django 5.x
-Front-end	HTML5 • CSS3 • Bootstrap v5
-DB Default	SQLite3 (out-of-the-box)
-Ambiente	venv
-IDE (sug.)	Visual Studio Code
-⚙️ Pré-requisitos
-# Checar Python
-python --version
-
-# Atualizar pip
-python -m pip install --upgrade pip
-
-
-<h1 align="center">🐍 CRUD Snake</h1>
-
-<p align="center">
-  <b>Django • Bootstrap 5 • SQLite</b><br>
-  Pequeno projeto <em>CRUD</em> para cadastro de <strong>Carros</strong>, ideal como ponto de partida para seus próprios apps.
-  <br><br>
-  <img alt="Python" src="https://img.shields.io/badge/Python-3.12%2B-blue?logo=python">
-  <img alt="Django" src="https://img.shields.io/badge/Django-5.x-%23092e20?logo=django&logoColor=white">
-  <img alt="license" src="https://img.shields.io/github/license/seu-usuario/crud-snake?color=informational">
-</p>
+![Python](https://img.shields.io/badge/Python-3.12%2B-blue?logo=python)
+![Django](https://img.shields.io/badge/Django-5.x-%23092e20?logo=django&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-Banco%20de%20Dados-%23003B57?logo=sqlite)
+![Licença](https://img.shields.io/github/license/seu-usuario/crud-snake?color=informational)
 
 ---
 
-## 📋 Sobre o Projeto
+## 📚 Sobre o Projeto
 
-O **CRUD Snake** é uma aplicação web simples construída com Django, focada em realizar operações de **Create, Read, Update e Delete** (CRUD) de **carros**.
+O **CRUD Snake** é uma aplicação web para gerenciamento de carros, com operações básicas de **Criar, Listar, Atualizar e Excluir (CRUD)**.
 
-Ideal para estudantes, iniciantes no framework ou como base para projetos mais robustos.
-
----
-
-## 🚀 Tecnologias Utilizadas
-
-- 💻 **Python 3.12+**
-- 🌐 **Django 5.x**
-- 💅 **Bootstrap 5**
-- 🗃️ **SQLite3**
+Com estrutura simples, é ideal para estudo ou como base para sistemas maiores.
 
 ---
 
-## 📂 Funcionalidades
+## ✨ Funcionalidades
 
-- ✅ Cadastro de carros com nome, marca e ano
-- ✅ Edição de registros existentes
-- ✅ Listagem de todos os carros cadastrados
-- ✅ Exclusão de veículos com confirmação
-- ✅ Estilização responsiva com Bootstrap
+- ✅ Listar carros cadastrados  
+- ✅ Adicionar novo carro  
+- ✅ Editar informações  
+- ✅ Excluir com confirmação  
+- ✅ Interface responsiva com Bootstrap 5  
 
 ---
 
-## ⚙️ Como Rodar o Projeto
+## ⚙️ Requisitos
 
-### ✅ Pré-requisitos
+- Python 3.12 ou superior  
+- pip (gerenciador de pacotes)  
+- (opcional) virtualenv  
 
-- Python 3.12+
-- pip
-- Virtualenv (opcional, mas recomendado)
+---
 
-### 🔧 Passos
+## 🚀 Como Executar
 
 ```bash
 # Clone o repositório
 git clone https://github.com/seu-usuario/crud-snake.git
 cd crud-snake
 
-# Crie e ative um ambiente virtual (opcional)
+# Crie o ambiente virtual (opcional)
 python -m venv venv
-source venv/bin/activate  # Linux/macOS
-venv\Scripts\activate     # Windows
+source venv/bin/activate      # Linux/macOS
+venv\Scripts\activate         # Windows
 
 # Instale as dependências
 pip install -r requirements.txt
@@ -95,6 +54,5 @@ pip install -r requirements.txt
 # Aplique as migrações
 python manage.py migrate
 
-# Rode o servidor de desenvolvimento
+# Inicie o servidor local
 python manage.py runserver
-
