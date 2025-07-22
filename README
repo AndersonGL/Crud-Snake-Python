@@ -11,40 +11,29 @@
 
 ---
 
-## 📑 Sumário
-- [✨ Visão Geral](#-visão-geral)
-- [🚀 Tecnologias & Ferramentas](#-tecnologias--ferramentas)
-- [⚙️ Pré-requisitos](#️-pré-requisitos)
-- [🔧 Instalação](#-instalação)
-- [🗂️ Estrutura de Pastas](#️-estrutura-de-pastas)
-- [📷 Capturas de Tela](#-capturas-de-tela)
-- [🤝 Contribuindo](#-contribuindo)
-- [📝 Licença](#-licença)
-- [👤 Autor](#-autor)
+📑 Sumário
+✨ Visão Geral
+🚀 Tecnologias & Ferramentas
+⚙️ Pré-requisitos
+🔧 Instalação
+🗂️ Estrutura de Pastas
+📷 Capturas de Tela
+🤝 Contribuindo
+📝 Licença
+👤 Autor
+✨ Visão Geral
+Demonstra o fluxo completo para criar, listar, atualizar e deletar registros no Django com <br>
+views baseadas em função, templates Bootstrap 5 e banco padrão SQLite. Ótimo laboratório para quem está aprendendo a stack Python + Django.
 
----
-
-## ✨ Visão Geral
-> Demonstra o fluxo completo para **criar**, **listar**, **atualizar** e **deletar** registros no Django com <br>  
-> views baseadas em função, templates **Bootstrap 5** e banco padrão **SQLite**. Ótimo laboratório para quem está aprendendo a stack **Python + Django**.
-
----
-
-## 🚀 Tecnologias & Ferramentas
-
-| Camada            | Stack / Tool                                   |
-|-------------------|-----------------------------------------------|
-| **Linguagem**     | Python 3.12 ou superior                       |
-| **Framework**     | Django 5.x                                    |
-| **Front-end**     | HTML5 • CSS3 • Bootstrap v5                   |
-| **DB Default**    | SQLite3 (out-of-the-box)                      |
-| **Ambiente**      | `venv`                                        |
-| **IDE** *(sug.)* | Visual Studio Code                            |
-
----
-
-## ⚙️ Pré-requisitos
-```bash
+🚀 Tecnologias & Ferramentas
+Camada	Stack / Tool
+Linguagem	Python 3.12 ou superior
+Framework	Django 5.x
+Front-end	HTML5 • CSS3 • Bootstrap v5
+DB Default	SQLite3 (out-of-the-box)
+Ambiente	venv
+IDE (sug.)	Visual Studio Code
+⚙️ Pré-requisitos
 # Checar Python
 python --version
 
