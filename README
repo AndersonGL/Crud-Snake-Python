@@ -1,15 +1,3 @@
-<h1 align="center">🐍 CRUD Snake</h1>
-
-<p align="center">
-  <b>Django • Bootstrap 5 • SQLite</b><br>
-  Pequeno projeto <em>CRUD</em> para cadastro de <strong>Carros</strong>, ideal como ponto de partida para seus próprios apps.
-  <br><br>
-  <img alt="Python" src="https://img.shields.io/badge/Python-3.12%2B-blue?logo=python">
-  <img alt="Django" src="https://img.shields.io/badge/Django-5.x-%23092e20?logo=django&logoColor=white">
-  <img alt="license" src="https://img.shields.io/github/license/seu-usuario/crud-snake?color=informational">
-</p>
-
----
 
 📑 Sumário
 ✨ Visão Geral
