@@ -1,44 +1,25 @@
-## 🐍 CRUD Snake
-
-**Sistema de cadastro de carros usando Django 5, Bootstrap 5 e SQLite.**  
+🐍 CRUD Snake
+Sistema de cadastro de carros usando Django 5, Bootstrap 5 e SQLite.
 Ideal para quem está aprendendo Django ou precisa de um projeto base para CRUD.
 
-![Python](https://img.shields.io/badge/Python-3.12%2B-blue?logo=python)
-![Django](https://img.shields.io/badge/Django-5.x-%23092e20?logo=django&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-Banco%20de%20Dados-%23003B57?logo=sqlite)
-![Licença](https://img.shields.io/github/license/seu-usuario/crud-snake?color=informational)
+PythonDjangoSQLite
 
----
-
-## 📚 Sobre o Projeto
-
-O **CRUD Snake** é uma aplicação web para gerenciamento de carros, com operações básicas de **Criar, Listar, Atualizar e Excluir (CRUD)**.
+📚 Sobre o Projeto
+O CRUD Snake é uma aplicação web para gerenciamento de carros, com operações básicas de Criar, Listar, Atualizar e Excluir (CRUD).
 
 Com estrutura simples, é ideal para estudo ou como base para sistemas maiores.
 
----
-
-## ✨ Funcionalidades
-
-- ✅ Listar carros cadastrados  
-- ✅ Adicionar novo carro  
-- ✅ Editar informações  
-- ✅ Excluir com confirmação  
-- ✅ Interface responsiva com Bootstrap 5  
-
----
-
-## ⚙️ Requisitos
-
-- Python 3.12 ou superior  
-- pip (gerenciador de pacotes)  
-- (opcional) virtualenv  
-
----
-
-## 🚀 Como Executar
-
-```bash
+✨ Funcionalidades
+✅ Listar carros cadastrados
+✅ Adicionar novo carro
+✅ Editar informações
+✅ Excluir com confirmação
+✅ Interface responsiva com Bootstrap 5
+⚙️ Requisitos
+Python 3.12 ou superior
+pip (gerenciador de pacotes)
+(opcional) virtualenv
+🚀 Como Executar
 # Clone o repositório
 git clone https://github.com/seu-usuario/crud-snake.git
 cd crud-snake
